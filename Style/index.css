@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #2c2a2d;
+  background-image: url(../Assets/Images/group\ coffee.png);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center 10%;
+}
+
+.navbar {
+  padding: 30px;
+}
+.navbar__list {
+  display: flex;
+  justify-content: center;
+  -moz-column-gap: 5rem;
+       column-gap: 5rem;
+}
+.navbar__list .link {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+.navbar__list .link:hover {
+  letter-spacing: 2px;
+}
+
+.center {
+  position: relative;
+}
+.center__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 8rem;
+  margin-top: 11%;
+}
+.center__poster {
+  position: absolute;
+  left: 34%;
+  width: 30%;
+  margin-top: -25%;
+}
+.center__point {
+  position: absolute;
+  right: 20px;
+  margin-top: -7%;
+}
+.center__button {
+  display: flex;
+  justify-content: center;
+  -moz-column-gap: 25rem;
+       column-gap: 25rem;
+}
+.center__button-design {
+  background: transparent;
+  width: 9rem;
+  height: 2.5rem;
+  border: 1px solid #fff;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.center__button-design:hover {
+  box-shadow: 0px 0px 20px 0px #fff;
+  letter-spacing: 2px;
+}/*# sourceMappingURL=index.css.map */
